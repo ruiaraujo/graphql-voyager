@@ -57,8 +57,7 @@ export class Viewport {
     this.zoomer.zoom(0.95);
   }
 
-  
-  () {
+  bindClick() {
     let dragged = false;
 
     let moveHandler = () => (dragged = true);
